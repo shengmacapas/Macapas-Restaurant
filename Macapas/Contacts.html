@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Sherley's Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="index.html">Sherley's Restaurant</a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact">
+        <div class="container">
+          <h1>Contact Us</h1>
+          <p>
+            We’d love to hear from you! Reach out to us using the form below or
+            visit us at our location.
+          </p>
+
+          <form action="submit-form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+
+          <div class="contact-info">
+            <h2>Our Location</h2>
+            <p><strong>Address:</strong> dumalinao, Flavor Town, FT 56789</p>
+            <p><strong>Phone:</strong> +1 234 567 890</p>
+            <p><strong>Email:</strong> contact@sherleysrestaurant.com</p>
+            <p><strong>Opening Hours:</strong> Mon-Sun: 10 AM - 10 PM</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy;2025 Sherley's Restaurant. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
